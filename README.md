@@ -4,7 +4,7 @@ Modifiable digital clock and calendar on SDCC LCD display.
 
 ## How to Use
 
-![picture](images/LCD display.png)
+![Screenshot](images/LCD display.png "LCD display on EdSim51")
 
 The two lines on LCD display the clock time (HH:MM:SS) on the first line, and date (DD-MM-YY) in the second line.
 On power up, it starts from 00:00:00 (01-01-00 for the date) and increments once every second until 23:59:59 before wrapping around, then it increments the date. If DD reaches the limits, it wraps around and increments the month and so on.
